@@ -1,0 +1,7 @@
+package com.travelapi.repository;
+
+import com.travelapi.entity.Payment;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface PaymentRepository extends JpaRepository<Payment, Long> {
+}
